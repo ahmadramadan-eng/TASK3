@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+</head>
+<body>
+    <header style="text-align: center;">
+        <h1 style="color: red;">Task 2</h1>
+    </header>
+    <main>
+        <section >
+            <table border="1" align="center" cellpadding="5px">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>I love HTML</p>
+                            <p>I love CSS</p>
+                        </td>
+                        <td><img src="image/images.jpeg" width="400px"></td>
+                        <td><iframe src="https://en.wikipedia.org/wiki/Cristiano_Ronaldo" width="400px"></iframe></td>
+                        <td rowspan="2"><video src="video/video2.mp4" controls autoplay muted width="350px"></video></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><audio src="audio/تعبان ي كابتن.mp3" controls autoplay muted width="400px"></audio></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <hr>
+        <form target="_blank" style="position: absolute; top: 430px; left: 100px;" method="get">
+            <label for="first">First Name</label> 
+            <input type="text" name="first" id="first" required placeholder="Enter your first name" autofocus>
+            <br><br>
+            <label for="last">Last Name</label>
+            <input type="text" name="last" id="last" placeholder="Enter your last name" required>
+            <br><br>
+            <label for="pass">Password</label>
+            <input type="password" name="password" id="pass" placeholder="Enter your password" required minlength="4" maxlength="10">
+            <br><br>
+            <label for="pass2">Repeat Password</label>
+            <input type="password" name="password2" id="pass2" placeholder="repeat your password" required>
+            <br><br>
+            <label for="file">Choose File</label>
+            <input type="file" name="file" id="file" accept=".png,.jpg" multiple >
+            <br><br>
+            <fieldset>
+                <legend>Gender</legend>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <br>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+            </fieldset>
+            <br><br>
+            <label for="faculty">Choose your faculty:</label>
+            <select name="faculty" id="faculty">
+                <optgroup label="Kafr El-Sheikh University"></optgroup>
+                <optgroup label="Engineering colleges">
+                    <option>Faculty of engineer</option>
+                    <option>Faculty of artificial intellgence</option>
+                    <option>Faculty of Computers and Information</option>
+                </optgroup>
+                <optgroup label="Medical colleges">
+                    <option>Faculty of Human Medicine</option>
+                    <option>Faculty of Pharmacy</option>
+                    <option>Faculty of Veterinary Medicine</option>
+                    <option>Faculty of Dentistry</option>
+                </optgroup>
+                <optgroup label="Educational colleges">
+                    <option>Faculty of Education</option>
+                    <option>Faculty of Commerce</option>
+                    <option>Faculty of Physical Education</option>
+                    <option>Faculty of Law</option>
+                </optgroup>
+            </select>
+            <br><br><br>
+            <fieldset>
+                <legend>Interest</legend>
+                <input type="checkbox" name="interest" id="football" value="football">
+                <label for="football">Football</label>
+                <br>
+                <input type="checkbox" name="interest" id="basketball" value="basketball">
+                <label for="basketball">Basketball</label>
+                <br>
+                <input type="checkbox" name="interest" id="swimming" value="swimming">
+                <label for="swimming">Swimming</label>
+                <br>
+                <input type="checkbox" name="interest" id="reading" value="reading">
+                <label for="reading">Reading</label>
+                <br>
+                <input type="checkbox" name="interest" id="ps" value="ps">
+                <label for="ps">Problem Solving</label>
+            </fieldset>
+            <br><br>
+            <label for="about">About you</label>
+            <textarea name="about" id="about"></textarea>
+            <br><br><br>
+            <input type="submit" onclick="window.location.href='task32.html'">
+            <input type="reset">
+        </form>
+    </main>
+
+</body>
+</html>
